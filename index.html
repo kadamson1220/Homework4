@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 4 - Class Tracker</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <button id="loginBtn">SIGN IN</button>
+      </nav>
+    </header>
+
+    <main id="app"></main>
+    <!-- Login modal that shows when you click the sign in button -->
+    <div class="modal" id="loginModal">
+      <div class="modal__content">
+        <button class="modal__close" id="closeModal">X</button>
+        <h2>Sign In</h2>
+
+        <form id="loginForm">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="Email Address" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="Password" required />
+
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="toastContainer"></div>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
