@@ -7,7 +7,8 @@ const home = `
         <p>View basic student information and use this site to keep up with classes, requirements, and courses offered on campus.</p>
         <button id="loadBtn">Load Student Data</button>
       </div>
-<img class="hero__image" src="../images/students2.jpg" alt="advisor meeting" />    </div>
+      <img class="hero__image" src="./images/students2.jpg" alt="advisor meeting" />
+    </div>
 
     <div id="data" class="data-card">
       <h2>Student Information</h2>
